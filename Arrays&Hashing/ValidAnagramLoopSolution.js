@@ -10,19 +10,19 @@ var isAnagram = function(s, t) {
 };
 
 
-/*var isAnagram = function(s, t) {
-  let sSorted = s.sort((a, b) => a - b);
-  let tSorted = t.sort((a, b) => a - b);
+var isAnagram = function(s, t) {
+let sSorted = s.sort((a, b) => a - b);
+let tSorted = t.sort((a, b) => a - b);
 
-  for (let i = 0; i < s.length; i++) {
-      let sChar = s[i];
-      let tChar = t[i];
-      if (sChar !== tChar) {
-          return false;
-      }
-  }
+for (let i = 0; i < s.length; i++) {
+    let sChar = s[i];
+    let tChar = t[i];
+    if (sChar !== tChar) {
+    return false;
+}
+ }
     return true;
-/*};
+};
 
 
 //Time: O(N log N)| Space: O(1)
