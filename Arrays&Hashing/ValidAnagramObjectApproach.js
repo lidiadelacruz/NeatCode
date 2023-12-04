@@ -10,7 +10,7 @@ var isAnagram = function(s, t) {
        if(char in validAnagram) {
         validAnagram[char] = validAnagram[char] + 1  
        } else {
-       validAnagram[char] = 0
+       validAnagram[char] = 1
        }
        
     })
